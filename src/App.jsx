@@ -1,18 +1,18 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import Process from "./components/Process";
-import CTAFooter from "./components/CTAFooter";
+import FlowHero from "./components/FlowHero";
+import FlowStream from "./components/FlowStream";
+import FlowJourney from "./components/FlowJourney";
+import FlowCTA from "./components/FlowCTA";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-black text-white">
       <Navbar />
       <main>
-        <Hero />
-        <Services />
-        <Process />
-        <CTAFooter />
+        <FlowHero />
+        <FlowStream />
+        <FlowJourney />
+        <FlowCTA />
       </main>
     </div>
   );
